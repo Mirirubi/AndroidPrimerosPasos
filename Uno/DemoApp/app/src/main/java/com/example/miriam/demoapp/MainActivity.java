@@ -17,10 +17,11 @@ public class MainActivity extends AppCompatActivity {
 
         EditText userTextField = (EditText) findViewById(R.id.userTextField);
 
-        EditText passTextField = (EditText) findViewById(R.id.userTextField);
+        EditText passTextField = (EditText) findViewById(R.id.passTextField);
 
         Log.i("Username", userTextField.getText().toString());
         Log.i("Password", passTextField.getText().toString());
+        Toast.makeText(MainActivity.this, "Username: "+ userTextField.getText().toString()+" Password: "+passTextField.getText().toString(), Toast.LENGTH_SHORT).show();
     }
 
     public void sayHi(View view){
