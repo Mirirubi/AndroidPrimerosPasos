@@ -30,10 +30,6 @@ public class MainActivity extends AppCompatActivity {
 
     ImageView downloadedImg;
 
-    public void clickFunction(View view) {
-        Log.i("info", "b0t0jn funcionando");
-    }
-
 
     public void downloadImage(View view){
         ImageDownloader task = new ImageDownloader();
